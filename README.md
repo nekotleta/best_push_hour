@@ -6,7 +6,7 @@ Recommender system for predicting best push time
 Докер запускается командой (при наличии папки ```data```)
 
 ```
-docker run --volume "$(pwd)/data:/srv/data:ro" best_push_time:dev
+docker run --volume "$(pwd)/data:/srv/data" best_push_time:dev
 ```
 
 Другой вариант - можно было вынести VOLUME в docker-compose
